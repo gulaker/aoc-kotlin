@@ -1,0 +1,6 @@
+out
+aoc*/
+!aoc24/
+aoc*/**/example.txt
+aoc*/**/task.txt
+
