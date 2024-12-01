@@ -1,7 +1,15 @@
-David Gulakers løsninger av Advent of Code. 
+# David Gulaker's Solutions for Advent of Code
 
-For hver dag lages en ny mappe etter mal av dayX-mappa. På grunn av rettigheter legges ikke inputs og outputs ut på git-repoet, men vil man kjøre en løsning kan man manuelt legge til example.txt og task.txt-filer.
+This repository contains David Gulaker's solutions for the Advent of Code puzzles, implemented with Kotlin worksheets.
 
-Når prosjektet åpnes i IntelliJ, pass på at aoc-kotlin er åpnet som modul. Dette kan gjøres ved File -> New -> Module from existing sources.. og så velge aoc-kotlin.iml-fila
+## Structure
 
-Hver dag kan kjøres i IntelliJ ved å høyreklikke på den aktuelle kotlin worksheet-fila (.ws.kts) og kjøre koden. For å kjøre med full input fra task.txt, endre exampleOnly til false som parameter til runSolution i koden.
+Each day, a new directory is created following the template in the `dayX` folder. Due to copyright restrictions, input files are not included in this repository. To run a solution, you can manually add `example.txt` and `task.txt` files, for the example input and the main task input, respectively.
+
+## Setup
+
+When opening the project in IntelliJ IDEA, make sure to open `aoc-kotlin` as a module. This can be done by navigating to `File -> New -> Module from existing sources...` and selecting the `aoc-kotlin.iml` file.
+
+## Running the Code
+
+Each day's solution can be executed in IntelliJ by right-clicking the corresponding Kotlin worksheet file (`.ws.kts`) and running the code. To run only with example input `example.txt`, set the `exampleOnly` parameter to `true` in the `runSolution` function call in the code.
